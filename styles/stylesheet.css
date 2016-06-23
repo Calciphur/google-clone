@@ -1,0 +1,153 @@
+body {
+  background-color: #ffffff;
+}
+
+#global-wrapper {
+    /*background-color: greenyellow;*/
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /*border: 1px dashed blue;*/
+    overflow: hidden;
+}
+
+.header {
+  height: 50px;
+    top: 0px;
+    /*border: 1px dashed black;*/
+}
+
+.header ul {
+  list-style: none;
+  font-family: arial, tahoma;
+  font-size: 0.8em;
+  float: right;
+    padding-right: 20px;
+}
+
+.nav-link {
+  display: inline-block;
+  padding-right: 10px;
+  
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.nav-icon {
+    display: inline-block;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+
+.apps-icon {
+  width: 20px;
+}
+
+.notify-icon {
+  width: 20px;
+}
+
+#sign-in-btn {
+    color: white;
+    font-weight: bold;
+    height: 35px;
+    width: 70px;
+    background-color:cornflowerblue;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 2px;
+}
+
+.content {
+  position: relative;
+  width: 540px;
+  margin: 110px auto;
+  /*background-color: gray;*/
+    /*border: 1px dashed red;*/
+}
+
+.content .logo {
+  display: block;
+  width: 272px;
+  margin: 0 auto;
+}
+
+.content .searchbar {
+  position: absolute;
+  width: 540px;
+  margin: 0px auto;
+  /*background-color: darkgray;*/
+    /*border: 1px dashed brown;*/
+}
+
+.content .searchbar input {
+  width: 540px;
+  height: 35px;
+}
+
+#normal-search {
+  display: inline;
+  margin-top: 40px;
+  margin-left: 145px;
+  width: 120px;
+}
+
+#feeling-lucky {
+  margin-left: 10px;
+  height: 35px;
+}
+
+.footer {
+    position: absolute;
+  bottom: 0px;
+  height: 40px;
+  background-color: #e9e9e9;
+    width: 100%;
+    /*border: 1px dashed green;*/
+}
+
+.footer .left-list li {
+  font-size: 0.8em;
+  font-family: arial, tahoma;
+  display: inline-block;
+  padding-top: 0px;
+  padding-right: 30px;
+    float: left;
+}
+
+.left-list li a {
+  color: #b3b3b3;
+  text-decoration: none;
+}
+
+.left-list li a:hover {
+  text-decoration: underline;
+}
+
+.footer .right-list li {
+  font-size: 0.8em;
+  font-family: arial, tahoma;
+  display: inline-block;
+  list-style: none;
+  padding-top: 0px;
+  padding-right: 30px;
+    float: right;
+}
+
+.right-list li a {
+  color: #b3b3b3;
+  text-decoration: none;
+}
+
+.right-list li a:hover {
+  text-decoration: underline;
+}
